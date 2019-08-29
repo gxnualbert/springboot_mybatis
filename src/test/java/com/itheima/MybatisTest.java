@@ -19,6 +19,7 @@ public class MybatisTest {
 
     @Test
     public void test(){
+//        Springboot+Mybatis +junit 案例
         List<User> users = userMapper.queryUserList();
         System.out.println(users);
     }
